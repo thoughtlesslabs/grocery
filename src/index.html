@@ -32,16 +32,19 @@
         <section>
             <div class="container">
                 <div class="row table-header">
-                    <div class="col-2 bg-light"></div>
-                    <div id="ingredients" class="col-8 bg-light text-center">Ingredients</div>
-                    <div class="col-2 bg-danger text-center">Quantity</div>
+                    <h4 id="ingredients" class="col bg-light text-center">Ingredients</h4>
+                    <h4 class="col-1 bg-light text-center">Quantity</h4>
                 </div>
                 <div class="row all-items my-1">
                     <div class="col">
-                    <button type="button" class="btn btn-success btn-block item-button">Add</button>
+                        <div class="row mr-1">
+                            <div class="d-flex gap-1 justify-content-end action-buttons">
+                                <button type="button" class="btn btn-success item-button">Add</button>
+                            </div>
+                        </div>
                     </div>
-                    <input type="text" class="col-7 task-item">
-                    <input type="number" class="col-2 task-quant">
+                    <input type="text" class="col-9 mx-2 task-item">
+                    <input type="number" class="col-1 task-quant">
                 </div>
             </div>
         </section>
